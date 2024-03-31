@@ -1,0 +1,159 @@
+.conteiner {
+  display: flex;
+  justify-content: center;
+  height: 1120px;
+  width: 100%;
+  padding-top: 25px;
+
+  background-color: rgb(245 245 245);
+}
+
+.conteiner-menu {
+  width: 280px;
+  height: 1120px;
+
+  margin-right: 16px;
+  background-color: white;
+}
+
+.content {
+  width: 904px;
+  height: 1120px;
+}
+
+.conteiner-nav-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.conteiner-nav-item {
+  padding: 8px;
+}
+.conteiner-nav > .conteiner-nav-list > .conteiner-nav-item {
+  position: relative;
+}
+
+.conteiner-nav
+  > .conteiner-nav-list
+  > .conteiner-nav-item
+  > .sub-conteiner-nav-list {
+  width: 100%;
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 100%;
+
+  background-color: white;
+}
+.conteiner-nav
+  > .conteiner-nav-list
+  > .conteiner-nav-item:hover
+  > .sub-conteiner-nav-list {
+  display: block;
+  border-left: 0.5px solid rgba(128, 128, 128, 0.245);
+}
+.conteiner-nav
+  > .conteiner-nav-list
+  > .conteiner-nav-item:has(.sub-conteiner-nav-list) {
+  position: relative;
+}
+.conteiner-nav
+  > .conteiner-nav-list
+  > .conteiner-nav-item:has(.sub-conteiner-nav-list)::after {
+  content: "";
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  background-image: url(../icons/chevron-right.svg);
+   
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: 10px;
+}
+.sub-conteiner-nav-list {
+  padding-right: 42px;
+}
+
+.nav-icon {
+  display: inline-block;
+  background-image: url(../icons/account.svg);
+  width: 32px;
+  height: 32px;
+  margin-right: 16px;
+}
+
+.conteiner-image-flag {
+  width: 904px;
+  height: 296px;
+  object-fit: cover;
+}
+.conteiner-vidgest {
+  display: flex;
+
+  width: 904px;
+  height: 200px;
+  margin-top: 20px;
+}
+.conteiner-digital {
+  margin-bottom: 16px;
+}
+.conteiner-vidgest-child {
+  width: 444px;
+  height: 200px;
+  padding: 24px 16px;
+  margin-right: 16px;
+  background-color: white;
+}
+.conteiner-vidgest-child {
+  font-weight: 600;
+}
+.conteiner-card-max {
+  display: flex;
+  width: 412px;
+  height: 56px;
+  margin-bottom: 16px;
+  
+}
+.conteiner-card-max1 {
+  width: 108px;
+  height: 56px;
+  margin-right: 16px;
+  background-image: url(../images/kun_gold.jpg);
+}
+.conteiner-reviev-btn {
+  display: block;
+  width: 197px;
+  height: 40px;
+
+  padding: 8px 16px;
+  border-radius: 5px;
+
+  line-height: 1.2em;
+  background-color: green;
+  color: white;
+  text-align: center;
+  
+}
+.conteiner-reviev-btn1 {
+  display: block;
+  width: 152px;
+  height: 40px;
+  padding: 8px 16px;
+  border-radius: 5px;
+  line-height: 1.2em;
+  background-color: green;
+  color: white;
+  text-align: center;
+  
+}
+.conteiner-card-max2 {
+  line-height: 1.5em;
+}
+.conteiner-vidgest1 {
+  width: 904px;
+  height: 152px;
+  margin-bottom: 16px;
+}
