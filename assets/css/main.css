@@ -93,16 +93,16 @@
 .conteiner-vidgest {
   display: flex;
 
-  width: 904px;
-  height: 200px;
+  /* width: 904px;
+  height: 200px; */
   margin-top: 20px;
 }
 .conteiner-digital {
   margin-bottom: 16px;
 }
 .conteiner-vidgest-child {
-  width: 444px;
-  height: 200px;
+  /* width: 444px;
+  height: 200px; */
   padding: 24px 16px;
   margin-right: 16px;
   background-color: white;
